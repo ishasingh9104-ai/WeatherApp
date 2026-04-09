@@ -1,0 +1,33 @@
+/* Footer.css */
+
+.footer {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+
+  /* Text Styling */
+  color: rgba(255, 255, 255, 0.7); /* Thoda faded white */
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+
+  /* Positioning */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* Hover effect */
+.footer:hover {
+  color: #38bdf8; /* Sky blue on hover */
+  transition: 0.3s ease;
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .footer {
+    font-size: 0.8rem;
+    padding: 15px;
+  }
+}
